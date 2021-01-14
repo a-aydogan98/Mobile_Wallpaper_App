@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".Activity.UygulaActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_uygula"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:title="Duvar Kağıdı Uygula" />
+
+    <ImageView
+        android:id="@+id/fullImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar_uygula"
+        android:scaleType="fitXY"/>
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/floatingActionMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentEnd="true">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/addWallpaper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ekle_uygula"
+            app:fab_size="mini"
+            app:fab_label="@string/ekle_uygula"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/shareWallpaper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/paylas"
+            app:fab_size="mini"
+            app:fab_label="@string/paylas"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/setLockWallpaper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/uygula_kilit"
+            app:fab_size="mini"
+            app:fab_label="@string/uygula_kilit"/>
+
+        <com.github.clans.fab.FloatingActionButton
+            android:id="@+id/setHomeWallpaper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/uygula_ana"
+            app:fab_size="mini"
+            app:fab_label="@string/uygula_ana"/>
+
+    </com.github.clans.fab.FloatingActionMenu>
+
+</RelativeLayout>

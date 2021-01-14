@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Duvar Kağıtları</string>
+
+    <string name="uygula_kilit">Kilit Ekranına Uygula</string>
+    <string name="uygula_ana">Ana Ekrana Uygula</string>
+    <string name="paylas">Paylaş</string>
+    <string name="indir">İndir</string>
+
+    <string name="ekle">Duvar Kağıdı Ekle</string>
+    <string name="uygula_duvarkagidi">Duvar Kağıdı Uygula</string>
+    <string name="hakkinda">Uygulama Hakkında</string>
+    <string name="koyuTema">Koyu Tema</string>
+    <string name="acikTema">Açık Tema</string>
+
+    <string name="ekle_uygula">Ekle</string>
+
+    <string name="hakkinda_aciklama">Bu uygulama sayesinde telefonunuzun kilit ve ana ekranlarının resmini değiştirebilirsiniz. İster uygulamada bulunan hazır duvar kağıtlarını kullanın, isterseniz de telefonunuzun galerisinden veya internetten duvar kağıdı kullanabilirsiniz.</string>
+</resources>

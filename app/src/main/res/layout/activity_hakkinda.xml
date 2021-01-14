@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_beyaz"
+    tools:context=".Activity.HakkindaActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_hakkinda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:title="Hakkında" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar_hakkinda">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/textView_aciklama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="@string/hakkinda_aciklama"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textColor="@color/text"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView_isim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_below="@id/textView_aciklama"
+                android:layout_marginTop="20dp"
+                android:textStyle="italic|bold"
+                android:textAlignment="textEnd"
+                android:textSize="20sp"
+                android:text="Abdullah Aydoğan"
+                android:textColor="@color/colorAccent"/>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/textView_isim"
+                android:layout_marginTop="15dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/android" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

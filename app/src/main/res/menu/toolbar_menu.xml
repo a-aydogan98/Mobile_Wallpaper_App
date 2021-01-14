@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_acikTema"
+        android:title="@string/acikTema"
+        android:icon="@drawable/acik_tema"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_koyuTema"
+        android:icon="@drawable/koyu_tema"
+        android:title="@string/koyuTema"
+        app:showAsAction="always"/>
+
+</menu>
